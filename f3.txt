@@ -1,0 +1,5 @@
+Ivanov 20
+Petrov 40
+Sidorov 30
+Polosko 15
+Golga 18
