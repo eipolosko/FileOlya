@@ -42,7 +42,7 @@ with open('f7.txt') as file7:
             print(f'Фирма {a[0]} понесла убытки {-pribil}')
             dict_f[a[0]] = pribil
     aver = sum_prib / kol_f_prib
-    print(f'Средняя прибыль всех компаний = {aver}')
+    print(f'Средняя прибыль всех компаний = {round(aver,3)}')
     dict_aver['average_profit'] = aver
     result.append(dict_f)
     result.append(dict_aver)
