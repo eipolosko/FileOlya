@@ -9,7 +9,7 @@
 # Физкультура: — 30(пр)
 # Пример словаря: {“Информатика”: 170, “Физика”: 40, “Физкультура”: 30}
 d={}
-with open('f6.txt',encoding='utf-8') as file6:
+with open('f6.txt', encoding='utf-8') as file6:
     for line in file6:
         key,lec,pr,lab=line.split()
         d[key]=int(lec)+int(pr)+int(lab)

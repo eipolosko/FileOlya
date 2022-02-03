@@ -2,12 +2,8 @@
 # записать в него построчно данные, вводимые пользователем.
 # Об окончании ввода данных будет свидетельствовать пустая строка.
 
-with open('f1.txt', 'w',encoding='utf-8') as file1:
+with open('f1.txt', 'w', encoding='utf-8') as file1:
     s = input('Введите данные ')
-    while s!='':
+    while s != '':
         file1.write(s + '\n')
-        s=input()
-
-
-
-
+        s = input()
